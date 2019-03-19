@@ -1,0 +1,49 @@
+
+body {
+    font-size: 20px;
+    margin: 0 auto;
+
+    background:url(../images/white_wall.png); 
+  }
+  
+.header{
+    padding: 0 20 40 20;
+    color: #333;
+    background: white;
+}
+
+h1 {
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+  }
+
+  h2{
+    color:#4aaaa5;  
+  }
+
+  img{
+
+      float: left;
+  }
+
+.container{
+    position: relative;
+    display: block;
+    width: 960px;
+    background: #ffffff;
+    color: #777777;
+    border: 2px solid #cccccc;
+    padding: 25px;
+    overflow: hidden;
+}
+ 
+
+  .footer{
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    clear: both;
+  }
