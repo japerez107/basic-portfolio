@@ -62,12 +62,14 @@ h2{
   font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
- /* float images to left */
+/* float images to left */
 img{
   float: left;
+
 }
 
 .wrapper{
+  min-height: 100%;
   width: 960px;
   padding: 20px;
   margin: 0 auto;
@@ -126,10 +128,8 @@ textarea{
   block-size: 1px;
 }
 
-
-
 .clearfix {
-  overflow: hidden;
+  overflow: auto;
 }
 
 /* footer */
